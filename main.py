@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-app.counter = -1
+app.counter = 0
 
 
 class PatientRequest(BaseModel):
